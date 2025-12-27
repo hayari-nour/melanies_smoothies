@@ -22,7 +22,7 @@ my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT
 
 name_on_order = st.text_input('Name on Smoothie :')
 
-st.write("Name will be  : ", name_on_order)    
+st.write("Name will be : ", name_on_order)    
 
 ingredients_list=st.multiselect(
     "Choose up to 5 ingredients :",
